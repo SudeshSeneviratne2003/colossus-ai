@@ -1,0 +1,106 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif; /* Improved typography */
+    background-color: #fff;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 320px;
+    margin-bottom: 20px;
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 25px; /* Curved edges */
+    font-size: 16px;
+    background-color: #f7f7f7;
+  }
+  
+  .forgot-password {
+    align-self: flex-end;
+    margin-bottom: 20px;
+    color: #555;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .login-button, .google-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px; /* Curved edges */
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-button {
+    background-color: #333; /* Dark gray */
+    color: white;
+  }
+  
+  .google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8fafe;
+    color: rgb(32, 32, 32);
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .google-icon {
+    margin-right: 10px;  
+    width: 20px;        
+    height: 20px;        
+  }
+  
+  .login-input, .login-button, .google-btn {
+    margin-top: 8px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;  
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 320px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  .signup-link {
+    color: #4285F4;
+    text-decoration: none;
+  }

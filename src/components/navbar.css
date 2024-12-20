@@ -1,0 +1,166 @@
+:root {
+    --orange: #FF9F4A;
+    --pink: #FF4A8D;
+    --purple: #8B4AFF;
+    --gradient: linear-gradient(135deg, var(--orange), var(--pink), var(--purple));
+}
+
+body {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+}
+  
+.navbar-container {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.rotate-logo {
+    margin-left: 150px;
+}
+
+.rotate-logo img {
+    height: 40px;
+    animation: rotateLogo 4s linear infinite;
+}
+
+.brand-name {
+    font-family: inter, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.nav-links-container {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: auto;
+}
+
+.links {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: inter, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.links:hover {
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.combine-btn {
+    display: flex;
+}
+
+.links1 {
+    display: block;
+    margin-left: 10px;
+    text-decoration: none;
+    font-family: inter, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    z-index: 10;
+}
+
+.links1:hover {
+    color: rgb(100, 100, 100);
+}
+
+.links2 {
+    display: block;
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: inter, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 9px 20px;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    z-index: 1;
+}
+
+.links2:hover {
+    background-color: rgb(80, 80, 80);
+}
+
+.login-signup-container {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+
+.darkmode-icon  {
+    height: 45px;
+    width: 45px;
+    padding-top: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+  
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+  
+body.dark-mode .links {
+    color: #ddd;
+}
+
+body.dark-mode .links2 {
+    border: 2px solid white;
+}
+
+body.dark-mode .links1 {
+    border: 2px solid white;
+    background-color: ;
+}
+
+body.dark-mode .darkmode-icon {
+    color: #ddd;
+    border: 2px solid white;
+}
+
+@keyframes rotateLogo {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+}

@@ -1,0 +1,91 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  h1, p {
+    text-align: center;
+  }
+  
+  .signup-form {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px; /* Control form width here */
+  }
+
+  .signup-checkbox {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .name-row {
+    display: flex;
+    width: 100%;
+  }
+  
+  .name-input {
+    flex: 1;
+    padding: 12px;
+    margin: 5px 5px 5px 0;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  
+  .name-input:last-child {
+    margin-right: 0;
+  }
+  
+  .wide-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px; /* Adjusted for tighter spacing */
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  
+  .signup-button, .google-btn {
+    max-width: 50%;
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px; /* Reduced top margin */
+    margin-bottom: 5px; /* Reduced bottom margin */
+  }
+  
+  .signup-button {
+    background-color: #333;
+    color: white;
+  }
+  
+  .google-btn {
+    background-color: #4285F4;
+    color: white;
+  }
+  
+  .signup-already {
+    margin: 10px 0 5px; /* Reduced space above and below the login link */
+    font-size: 14px;
+  }
+  
+  .signup-already a {
+    color: #4285F4;
+    text-decoration: none;
+  }
